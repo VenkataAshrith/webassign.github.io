@@ -1,0 +1,130 @@
+body{
+    background-color: #efefef;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color:white;
+    margin-top: 0 auto;
+}
+ul{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin-top: 2px;
+}
+.sidenav{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    
+}
+.dp img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+
+}
+.profile{
+    text-align: center;
+}
+.person-details{
+    text-align: center;
+}
+.skills{
+    text-align: center;
+}
+.remain{
+    width: 80%;
+
+}
+.intro{
+    display: flex; 
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text{
+    width: 35%;
+    margin-top: 7%;
+    margin-left: 10%;
+    
+}
+#web{
+    color: red;
+}
+#perimg{
+    height: 500px;
+    margin-left: 15%;
+}
+.edu{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.cards-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.cards{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+}
+.pimg{
+    height: 200px;
+    width: 200px;
+
+}
+.cards:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    
+    background-color: rgb(55, 55, 55);
+    margin-top:50px ;
+    color: white;
+}
+footer h3{
+    text-align: center;
+
+}
+footer h3:hover{
+    cursor: pointer;
+}
